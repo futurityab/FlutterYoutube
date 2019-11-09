@@ -7,6 +7,8 @@ Supported
 - Android
 - iOS
 
+Violates YT TOS on iOS, if that is important for you, don't use this.
+
 ## How to Use
 
 ```yaml
@@ -14,13 +16,13 @@ dependencies:
   flutter_youtube: "^2.0.0"
 ```
 
-###Imports
+### Imports
 
 ```dart
 import 'package:flutter_youtube/flutter_youtube.dart';
 ```
 
-###Code
+### Code
 
 ```dart
 

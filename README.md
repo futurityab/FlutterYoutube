@@ -8,6 +8,7 @@ Supported
 - iOS
 
 Violates YT TOS on iOS, if that is important for you, don't use it.
+
 This is just educational code, forked from https://github.com/PonnamKarthik/FlutterYoutube.
 
 ## How to Use

@@ -1,6 +1,6 @@
 # flutter_youtube
 
-Flutter Plugin to play youtube Videos using youtube player api (android)
+Flutter Plugin to play youtube Videos
 
 Supported
 

@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_youtube/flutter_youtube.dart';
+import 'package:flutter_launcher_icons/android.dart';
+import 'package:flutter_launcher_icons/constants.dart';
+import 'package:flutter_launcher_icons/custom_exceptions.dart';
+import 'package:flutter_launcher_icons/ios.dart';
+import 'package:flutter_launcher_icons/main.dart';
+import 'package:flutter_launcher_icons/xml_templates.dart';
 
 void main() => runApp(new MyApp());
 
@@ -20,7 +26,24 @@ class _MyAppState extends State<MyApp> {
   void playYoutubeVideo() {
     FlutterYoutube.playYoutubeVideoByUrl(
       apiKey: "<API_KEY>",
-      videoUrl: "https://www.youtube.com/watch?v=wgTBLj7rMPM",
+      videoUrl: "https://www.youtube.com/watch?v=gLu3wNTQ3HA",
+    );
+  }void playYoutubeVideo1() {
+    FlutterYoutube.playYoutubeVideoByUrl(
+      apiKey: "<API_KEY>",
+      videoUrl: "https://www.youtube.com/watch?v=gLu3wNTQ3HA",
+    );
+  }
+  void playYoutubeVideo2() {
+    FlutterYoutube.playYoutubeVideoByUrl(
+      apiKey: "<API_KEY>",
+      videoUrl: "https://www.youtube.com/watch?v=jL8uDJJBjMA",
+    );
+  }
+  void playYoutubeVideoDW() {
+    FlutterYoutube.playYoutubeVideoByUrl(
+      apiKey: "<API_KEY>",
+      videoUrl: "https://www.youtube.com/watch?v=NvqKZHpKs-g",
     );
   }
 
@@ -84,9 +107,22 @@ class _MyAppState extends State<MyApp> {
               new Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: new RaisedButton(
-                    child: new Text("Play Default Video"),
-                    onPressed: playYoutubeVideo),
+                    child: new Text("Euronews EN"),
+                    onPressed: playYoutubeVideo1),
               ),
+              new Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: new RaisedButton(
+                    child: new Text("Al Jazeera"),
+                    onPressed: playYoutubeVideo2),
+              ),
+              new Padding(
+                padding: const EdgeInsets.all(10.0),
+                child: new RaisedButton(
+                    child: new Text("DW"),
+                    onPressed: playYoutubeVideoDW),
+              ),
+
               new Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: new TextField(

@@ -59,3 +59,8 @@ Your API key is what you need to use so your application can submit API requests
 For that you are gonna need a Google Account to access the Google API Console, request an API key, and register your application.
 After that create a project in the Google Developers Console and obtain authorization credentials so your application can submit API requests.
 More info here https://developers.google.com/youtube/v3/getting-started
+
+### TODO
+- Add search in the GUI
+- Filter out only live broadcasts in search
+- Re-design the buttons from static to scrolling, dynamic selection from search.

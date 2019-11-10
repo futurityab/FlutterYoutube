@@ -21,6 +21,7 @@ class _MyAppState extends State<MyApp> {
   // https://www.youtube.com/watch?v=21X5lGlDOfg
   //How the Universe Works
 // https://www.youtube.com/watch?v=1snPCmczlqI
+  //https://www.youtube.com/watch?v=0jf_DZCqp1c (Euronews ES)
 
   void playYoutubeVideo() {
     FlutterYoutube.playYoutubeVideoByUrl(
@@ -30,7 +31,7 @@ class _MyAppState extends State<MyApp> {
   }void playYoutubeVideo1() {
     FlutterYoutube.playYoutubeVideoByUrl(
       apiKey: "<API_KEY>",
-      videoUrl: "https://www.youtube.com/watch?v=gLu3wNTQ3HA",
+      videoUrl: "https://www.youtube.com/watch?v=0jf_DZCqp1c",
     );
   }
   void playYoutubeVideo2() {
@@ -118,7 +119,7 @@ class _MyAppState extends State<MyApp> {
               new Padding(
                 padding: const EdgeInsets.all(10.0),
                 child: new RaisedButton(
-                    child: new Text("Euronews EN"),
+                    child: new Text("Euronews ES"),
                     onPressed: playYoutubeVideo1),
               ),
               new Padding(
